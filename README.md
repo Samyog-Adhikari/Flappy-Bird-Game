@@ -20,7 +20,7 @@ python -m pip install pygame
 From the project directory, run:
 
 ```bash
-python flappy_bird.py
+python main_game.py
 ```
 
 The game loads its window size from `assets/background-day.png`. Keep the `assets` directory next to `flappy_bird.py` so the game can find the images it needs.
@@ -42,7 +42,7 @@ Guide the bird through the gaps between the pipes. The score increases each time
 
 ```text
 Flappy Bird/
-├── flappy_bird.py
+├── main_game.py
 ├── assets/
 │   ├── background-day.png
 │   ├── base.png
